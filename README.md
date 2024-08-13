@@ -48,13 +48,4 @@
   <h2>Contact</h2>
   <p>For any questions or feedback, reach out to Me at: <a href="mailto:kushdhingra3112@gmail.com.com">kushdhingra3112@gmail.com</a></p>
 </div>
-<script>
-  function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(function() {
-      alert('Copied to clipboard!');
-    }, function(err) {
-      alert('Failed to copy text: ', err);
-    });
-  }
-</script>
 
