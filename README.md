@@ -4,6 +4,7 @@
   <em>
     ~ Made Using React And Firebase
   </em></p>
+  [![Deploy](https://img.shields.io/badge/Deployed%20Site-Visit-blue?style=for-the-badge)](https://sigma-chatapp.web.app/)
   
   <h2>Overview</h2>
   <p>Welcome to <strong>Sigma Chat</strong> – the chat app that brings a whole new level of fun and chaos to your conversations! Sigma Chat is your go-to platform for chatting with friends, but with a twist: every message you send or receive is automatically converted to Gen-Z slang.</p>
