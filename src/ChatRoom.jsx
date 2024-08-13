@@ -47,8 +47,6 @@ export default function ChatRoom() {
       });
   
       setFormValue('');
-      document.doczumentElement.focus();
-      dummy.current.scrollIntoView({ behavior: 'smooth' });
     };
     return (
       <>

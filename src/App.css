@@ -221,7 +221,12 @@ ul, li {
   text-align: left;
   list-style: none;
 }
-
+p em {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
 p {
   max-width: 500px;
   margin-bottom: 12px;
@@ -236,7 +241,9 @@ p {
 .message {
   display: flex;
 }
-
+.message p {
+  padding-right: 5rem;
+}
 
 .sent {
   flex-direction: row-reverse;
