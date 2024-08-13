@@ -33,10 +33,10 @@
   </ol>
   
   
-  <h2>Installation</h2>
+  <h2>Installation [Git Required]</h2>
   <ol>
     <li>Clone the repository:
-      <pre><code>git clone https://github.com/Kush-Dhingra/Sigma-Chat.git</code></pre>
+      <pre><code>git clone https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis.git</code></pre>
     </li>
     <li>Navigate to the project directory:
       <pre><code>cd sigma-chat</code></pre>
