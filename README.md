@@ -28,8 +28,33 @@
   </ol>
   
   
+  <h2>Installation</h2>
+  <ol>
+    <li>Clone the repository:
+      <pre><code>git clone https://github.com/Kush-Dhingra/Sigma-Chat.git</code></pre>
+    </li>
+    <li>Navigate to the project directory:
+      <pre><code>cd sigma-chat</code></pre>
+    </li>
+    <li>Install dependencies:
+      <pre><code>npm install</code></pre>
+    </li>
+    <li>Run the app:
+      <pre><code>npm start</code></pre>
+    </li>
+  </ol>
+
   
   <h2>Contact</h2>
   <p>For any questions or feedback, reach out to Me at: <a href="mailto:kushdhingra3112@gmail.com.com">kushdhingra3112@gmail.com</a></p>
 </div>
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+      alert('Copied to clipboard!');
+    }, function(err) {
+      alert('Failed to copy text: ', err);
+    });
+  }
+</script>
 
