@@ -8,6 +8,8 @@
   <h2>Overview</h2>
   <p>Welcome to <strong>Sigma Chat</strong> – the chat app that brings a whole new level of fun and chaos to your conversations! Sigma Chat is your go-to platform for chatting with friends, but with a twist: every message you send or receive is automatically converted to Gen-Z slang.</p>
   <p><strong>Why be boring when you can be extra?</strong> With Sigma Chat, you'll never have a dull conversation again!</p>
+
+  <img src="/Github.gif">
   
   <h2>Features</h2>
   <ul>
