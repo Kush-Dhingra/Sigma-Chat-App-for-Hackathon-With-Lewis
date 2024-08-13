@@ -24,6 +24,7 @@
   
   <h2>Usage</h2>
   <ol>
+    <li>Open <a href="https://sigma-chatapp.web.app/">https://sigma-chatapp.web.app/</a></li>
     <li>Sign In With Github, Google Or As Guest</li>
     <li>Type your message as usual – watch it get converted to Gen-Z slang in real-time!</li>
     <li>Enjoy the chaotic, fun, and functionally dysfunctional conversations with your friends.</li>
