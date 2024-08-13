@@ -12,7 +12,7 @@
   <h2>Features</h2>
   <ul>
     <li><strong>Real-time Chat:</strong> Like any normal chat app, but better. Messages are instantly transformed into the latest Gen-Z slang.</li>
-    <li><strong>Gen-Z Translator:</strong> Say goodbye to boring texts. My translator takes your words and gives them a fresh, funky twist.</li>
+    <li><strong>Gen-Z Translator:</strong> Say goodbye to boring texts. The translator takes your words and gives them a fresh, funky twist.</li>
   </ul>
   
   <h2>Theme: "Functionally Dysfunctional"</h2>
