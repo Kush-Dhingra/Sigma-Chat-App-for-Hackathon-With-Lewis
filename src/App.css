@@ -41,6 +41,11 @@ body, #root {
   font-size: 2rem;
   color: #d0d0d0;
 }
+@media screen and (max-width: 768px) {
+  .Landing * {
+    scale: 0.8;
+  }
+}
 svg.loading {
   transform: translate(40%, 12%);
   scale: 5;

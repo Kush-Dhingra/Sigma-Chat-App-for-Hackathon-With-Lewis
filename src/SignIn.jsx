@@ -1,4 +1,4 @@
-import { fetchSignInMethodsForEmail, GithubAuthProvider, signInAnonymously, GoogleAuthProvider, signInWithPopup, browserPopupRedirectResolver } from 'firebase/auth';
+import { GithubAuthProvider, signInAnonymously, GoogleAuthProvider, signInWithPopup, browserPopupRedirectResolver } from 'firebase/auth';
 import Credits from './credits';
 import LoadingAnim from './loading';
 import { useState, useEffect, useRef } from 'react';
