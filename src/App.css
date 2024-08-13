@@ -1,0 +1,262 @@
+body, #root {
+  background-color: #000000 !important;
+}
+
+.App {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px !important;
+}
+.send {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.Warning {
+  color: red;
+  text-shadow: 2px 2px 4px #ff0000;
+}
+.Landing {
+  background-color: #000000;
+  max-width: 100vw !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Landing h1 {
+  font-size: 5rem;
+}
+.Landing p {
+  font-size: 1.5rem;
+  color: #d0d0d0;
+}
+.Landing em {
+  font-size: 2rem;
+  color: #d0d0d0;
+}
+svg.loading {
+  transform: translate(40%, 12%);
+  scale: 5;
+  z-index: 999999999999;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  border-radius: 30rem;
+  width: 5rem;
+  aspect-ratio: 1;
+  color: #fff;
+  transition: background-color .2s ease-in-out;
+}
+#github:hover {
+  background-color: #242424;
+}
+#mail:hover {
+  background-color: #aa00ffff;
+}
+#youtube:hover {
+  background-color: #ff0000;
+}
+.Credits {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: space-evenly;
+}
+.signout {
+  border: 1px solid white;
+  box-shadow: #000000 0px 5px 15px;
+  transition: all 1s ease-in-out;
+}
+.signout:has(h5:active) {
+  transform: rotateX(360deg);
+}
+.SignIn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.SignIn .bi {
+  padding-right: 2px;
+}
+.SignIn .sign-in {
+  font-size: calc(10px + 2vmin);
+  border-radius: 20px !important;
+  scale: 1;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.SignIn .sign-in:hover {
+  scale: 1.1;
+}
+.SignIn .sign-in:active {
+  scale: 0.9;
+}
+.bi-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.App header {
+  background-color: #000000;
+  height: fit-content;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.App header h5 {
+  display: block !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-left: auto !important;
+}
+.form-control:focus,
+.form-control:active {
+  box-shadow: none !important;
+}
+span:has(button:disabled) {
+  cursor: not-allowed !important;
+}
+span:has(.btn.send) {
+  width: 8rem !important;
+  aspect-ratio: 1/1;
+}
+span > button {
+  width: 100% !important;
+  height: 100% !important;
+}
+header button {
+  width: fit-content;
+}
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(40, 37, 53);
+}
+
+main {
+  padding: 10px;
+  height: 80vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+form {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(24, 23, 23);
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+form button {
+  width: 20%;
+  background-color: rgb(56, 56, 143);
+}
+
+
+input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+button {
+  padding: 15px 32px;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: #ffffff !important;
+  --bs-tooltip-color: #000000 !important;
+}
+
+
+
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+  
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
