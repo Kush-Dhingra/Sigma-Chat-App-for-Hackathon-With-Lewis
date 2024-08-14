@@ -7,7 +7,7 @@ function DownloadPopup() {
   return (
     <div className="DownloadPopup">
       <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis/releases/download/Chat/Sigma.Chat.Setup.exe" className="btn btn-outline-light"><i className="bi bi-windows"></i> Windows</a>
-      <b>For Macos and Linux Please Visit the <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis">Github Repo</a> And Follow The Instructions to Run the App</b>
+      <b>For Macos and Linux Please Visit the <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis?tab=readme-ov-file#installation-git-required">Github Repo</a> And Follow The Instructions to Run the App</b>
     </div>
   )
 }
