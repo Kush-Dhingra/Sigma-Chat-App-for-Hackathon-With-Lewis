@@ -46,6 +46,9 @@
     <li>Run the app:
       <pre><code>npm start</code></pre>
     </li>
+    <li>Open Url in your Browser
+      <pre><code>localhost:3000</code></pre>
+    </li>
   </ol>
 
   
