@@ -32,7 +32,7 @@
     <li>Enjoy the chaotic, fun, and functionally dysfunctional conversations with your friends.</li>
   </ol>
   
-  
+  <h2>For Windows there is an Installer Available Please Check <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis/releases/download/Chat/Sigma.Chat.Setup.exe">Here</a></h2>
   <h2>Installation [Git Required]</h2>
   <ol>
     <li>Clone the repository:

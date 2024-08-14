@@ -1,7 +1,6 @@
 body, #root {
   background-color: #000000 !important;
 }
-
 .App {
   text-align: center;
   max-width: 728px;
@@ -13,6 +12,17 @@ body, #root {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
+.modal-backdrop {
+  display: none !important;
+}
+.DownloadPopup {
+  display: flex;
+  flex-direction: column;
+}
+.modal.show {
+  z-index: 9999999999 !important;
+}
+
 
 .Warning {
   color: red;
@@ -40,6 +50,13 @@ body, #root {
 .Landing em {
   font-size: 2rem;
   color: #d0d0d0;
+}
+.Landing b {
+  font-size: 2rem;
+  color: #d0d0d0;
+}
+.Landing .btn-outline-light {
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 768px) {
   .Landing * {

@@ -3,6 +3,14 @@ import Credits from './credits';
 import LoadingAnim from './loading';
 import { useState, useEffect, useRef } from 'react';
 import auth from './firebase';
+function DownloadPopup() {
+  return (
+    <div className="DownloadPopup">
+      <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis/releases/download/Chat/Sigma.Chat.Setup.exe" className="btn btn-outline-light"><i className="bi bi-windows"></i> Windows</a>
+      <b>For Macos and Linux Please Visit the <a href="https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis">Github Repo</a> And Follow The Instructions to Run the App</b>
+    </div>
+  )
+}
 export default function SignIn() {
     const [loading, setLoadingState] = useState(false);
     const isMounted = useRef(true); 
@@ -74,6 +82,23 @@ export default function SignIn() {
             <i className="bi bi-person"></i>
             Guest
           </button>
+          <br />
+          <button type="button" className="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Download
+          </button>
+          <div data-bs-theme="dark" className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-scrollable">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h1 className="modal-title fs-5" id="exampleModalLabel">Download</h1>
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div className="modal-body">
+                  <DownloadPopup />
+                </div>
+              </div>
+            </div>
+          </div>
           <Credits />
         </div>
         }
