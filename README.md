@@ -1,6 +1,5 @@
 <div>
   <h1>Sigma Chat</h1>
-  <a href="https://sigma-chatapp.web.app/">Open</a>
   <p><strong>Project for Hackathon with Theme: "Functionally Dysfunctional"</strong>
   <em>
     ~ Made Using React And Firebase
