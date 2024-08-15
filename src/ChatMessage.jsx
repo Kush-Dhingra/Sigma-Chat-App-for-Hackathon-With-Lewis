@@ -2,7 +2,7 @@ import BootstrapTooltip from "./tooltip";
 export default function ChatMessage(props) {
     const { createdAt, text, uid, photoURL, name } = props.message;
     const auth = props.auth
-    const timestamp = createdAt ? createdAt.toDate().toLocaleDateString() : new Date().toLocaleDateString();
+    const timestamp = createdAt ? createdAt.toDate().toLocaleDateString() : "";
     const textStyle = {}
     if (uid === 'ELNY1HQ1iCWHtOyaoJK15WBiMD72') {
       textStyle.color = '#ffffff'
