@@ -25,6 +25,8 @@ export default function ChatRoom() {
   const [messages] = useCollectionData(query, { idField: 'id' });
 
   const [formValue, setFormValue] = useState(localStorage.getItem('formValue') || '');
+  const [isSending, setIsSending] = useState(false);
+
   useEffect(() => {
     localStorage.setItem('formValue', formValue);
   }, [formValue]);
@@ -36,9 +38,12 @@ export default function ChatRoom() {
   const sendMessage = async (e) => {
     e.preventDefault();
 
-    if (!formValue || formValue.trim() === '') {
+    if (!formValue || formValue.trim() === '' || isSending) {
       return;
     }
+
+    setIsSending(true);
+
     const { uid, photoURL } = auth.currentUser;
 
     await messagesRef.add({
@@ -50,6 +55,10 @@ export default function ChatRoom() {
     });
 
     setFormValue('');
+
+    setTimeout(() => {
+      setIsSending(false);
+    }, 5000);
   };
 
   return (
@@ -73,7 +82,7 @@ export default function ChatRoom() {
             id='messageInput'
           />
           <span>
-            <button className='send btn btn-primary' type="submit" disabled={!formValue || formValue.trim() === ''}>
+            <button className='send btn btn-primary' type="submit" disabled={!formValue || formValue.trim() === '' || isSending}>
               <i className="bi bi-send"></i>
             </button>
           </span>
