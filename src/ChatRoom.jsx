@@ -55,7 +55,6 @@ export default function ChatRoom() {
     });
 
     setFormValue('');
-
     setTimeout(() => {
       setIsSending(false);
     }, 5000);
