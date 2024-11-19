@@ -38,7 +38,7 @@
       <pre><code>git clone https://github.com/Kush-Dhingra/Sigma-Chat-App-for-Hackathon-With-Lewis.git</code></pre>
     </li>
     <li>Navigate to the project directory:
-      <pre><code>cd sigma-chat</code></pre>
+      <pre><code>cd Sigma-Chat-App-for-Hackathon-With-Lewis</code></pre>
     </li>
     <li>Install dependencies:
       <pre><code>npm install</code></pre>
